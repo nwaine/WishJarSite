@@ -1,4 +1,4 @@
-# wishjar.app
+# wishjar.family
 
 Static marketing site for WishJar (chores, rewards & family goals) by SteadyLife LLC.
 Plain HTML/CSS, deployed on Netlify from this repo; `_redirects` keeps the old
