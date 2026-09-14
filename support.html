@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Support – WishJar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Get help with WishJar: common questions about family codes, kid devices, approvals, wishes, subscriptions, and deleting your data." />
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png" />
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/site.css" />
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <a class="wordmark" href="/">
+        <img src="/img/icon-512.png" alt="" width="40" height="40" />
+        <span><span class="wish">Wish</span><span class="jar">Jar</span></span>
+      </a>
+      <nav>
+        <a href="/#how">How it works</a>
+        <a href="/#pricing">Pricing</a>
+        <a href="/support.html">Support</a>
+        <a href="/privacy.html">Privacy</a>
+        <a class="btn btn-primary btn-small" href="https://apps.apple.com/app/id6804933445" target="_blank" rel="noopener">App Store</a>
+      </nav>
+    </header>
+
+    <main class="prose">
+      <h1>Support</h1>
+      <p class="meta">Answers to the common questions first; a form at the bottom for everything else.</p>
+
+      <h2>Common questions</h2>
+      <details>
+        <summary>How does a kid join?</summary>
+        <p>On the kid&rsquo;s device, open WishJar and tap <strong>I&rsquo;m a kid — enter a join code</strong>, type your family&rsquo;s six-letter code (Home → house icon), and pick their name. No account or password. If you ever want a new code, tap <strong>Get a new code</strong> — kids already signed in stay signed in.</p>
+      </details>
+      <details>
+        <summary>A kid marked a task done but the points didn&rsquo;t change.</summary>
+        <p>That&rsquo;s by design: points are awarded when a grown-up approves. Check <strong>Needs You</strong> on your dashboard, or the notification on your phone or watch, and tap Approve.</p>
+      </details>
+      <details>
+        <summary>Can another parent or a grandparent help?</summary>
+        <p>Yes. They sign up as a grown-up and ask to join with your family code; you approve the request from your dashboard. Every grown-up can approve tasks and gets notified. A code alone is never enough to get in.</p>
+      </details>
+      <details>
+        <summary>What&rsquo;s the difference between a reward and a goal?</summary>
+        <p>A reward is something a kid can buy with points right now. A goal is a big wish you&rsquo;ve turned into something to work toward over time — it fills up from the same effort, but spending points on small rewards never sets it back.</p>
+      </details>
+      <details>
+        <summary>How do I manage or cancel the subscription?</summary>
+        <p>On your iPhone: Settings → your name → Subscriptions → WishJar. One subscription covers the whole family. Cancelling keeps everything readable until the end of the period.</p>
+      </details>
+      <details>
+        <summary>How do I remove a kid&rsquo;s device, or delete everything?</summary>
+        <p>Open the kid&rsquo;s detail screen → <strong>Devices</strong> → Unlink. To delete your whole account: Home → house icon → <strong>Delete account</strong>. See the <a href="/privacy.html">Privacy Policy</a> for exactly what that erases.</p>
+      </details>
+
+      <h2>Send us a message</h2>
+      <p>Include the email you signed up with if it&rsquo;s about your account. We read everything and usually reply within a day.</p>
+      <form class="support" name="wishjar-support" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="wishjar-support" />
+        <p style="position:absolute;left:-9999px;height:0;width:0;overflow:hidden;" aria-hidden="true"><label>Don&rsquo;t fill this out: <input name="bot-field" /></label></p>
+        <label>Your email <input type="email" name="email" required placeholder="you@example.com" /></label>
+        <label>What&rsquo;s going on? <textarea name="message" required placeholder="Tell us what you expected and what happened instead."></textarea></label>
+        <div><button class="btn btn-primary" type="submit">Send</button></div>
+      </form>
+      <p class="meta" style="margin-top:18px;">Prefer email? <a href="mailto:support@steadylife.app">support@steadylife.app</a></p>
+    </main>
+
+    <footer>
+      <div>© 2026 SteadyLife, LLC · WishJar is made by <a href="https://steadylife.app/">SteadyLife</a></div>
+      <div class="links">
+        <a href="/support.html">Support</a>
+        <a href="/privacy.html">Privacy</a>
+        <a href="https://apps.apple.com/app/id6804933445" target="_blank" rel="noopener">App Store</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
