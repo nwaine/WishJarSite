@@ -296,3 +296,19 @@ footer {
 footer a { color: var(--muted); text-decoration: none; }
 footer a:hover { color: var(--ink); }
 footer .links { display: flex; gap: 16px; flex-wrap: wrap; }
+
+/* More from SteadyLife */
+.more-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+@media (max-width: 720px) { .more-grid { grid-template-columns: minmax(0, 1fr); } }
+.more-card {
+  display: grid; gap: 4px; text-decoration: none; color: var(--ink);
+  background: var(--paper); border: var(--stroke) solid var(--ink);
+  border-radius: var(--radius); padding: 18px;
+  box-shadow: 0 6px 0 rgba(42, 35, 32, 0.06);
+  transition: transform 0.08s ease-out, box-shadow 0.08s ease-out;
+}
+.more-card:hover { transform: translateY(-2px); box-shadow: 0 10px 0 rgba(42, 35, 32, 0.08); }
+.more-card img { width: 56px; height: 56px; border-radius: 22.5%; margin-bottom: 8px; box-shadow: 0 6px 14px rgba(42, 35, 32, 0.16), 0 0 0 1px rgba(42,35,32,0.08); }
+.more-name { font-weight: 800; font-size: 17px; }
+.more-sub { color: var(--muted); font-weight: 600; font-size: 14px; }
+.more-cta { color: var(--coral); font-weight: 800; font-size: 13px; margin-top: 6px; }
